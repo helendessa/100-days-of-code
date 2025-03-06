@@ -19,6 +19,12 @@ a:hover {
     color: blue;
 }
 
+img {
+    width: 30px;
+    height: 30px;
+    
+}
+
 .federo-regular {
     font-family: "Federo", sans-serif;
     font-weight: 400;

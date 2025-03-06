@@ -11,25 +11,71 @@ p {
     text-align: center;
 }
 
-li {
+ol {
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ol li {
     color: rgba(0,0,0, 1);
     font-family: 'Assistant', sans-serif;
     font-weight: normal;
     text-align: center;
+    background-color: #d2bfa1;
+    margin: 10px auto;
+    padding: 10px;
+    width: 350px;
+    border: 1px solid rgba(6,85,53, 1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li input[type="checkbox"] {
+ol li input[type="checkbox"] {
     width: 10px;
     height: 10px;
     margin-right: 5px;
     accent-color: #4CAF50;
     border: 2px solid #4CAF50;
     border-radius: 10px;
+    vertical-align: middle;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.task input {
+    margin-right: 8px;
+}
+
+h2 {
+    color: #724f32;
+    margin-bottom: 2px;
+    margin-top: -5px;
+    text-shadow: 
+        -1px -1px 0 #fff,  
+         1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+         1px  1px 0 #fff;
 }
 
 .federo-regular {
